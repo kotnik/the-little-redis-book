@@ -75,17 +75,17 @@ Najbolja opcija za *nix and and Mac korisnike je kompajliranje izvornog koda. In
 
 Ako ste kompajlirali izvorni kod, binarni programi se nalaze u `src` direktorijumu. Uđite u `src` direktorijum tako što ukucate `cd src`.
 
-### Running and Connecting to Redis
+### Pokretanje i povezivanje sa Redisom
 
-If everything worked, the Redis binaries should be available at your fingertips. Redis has a handful of executables. We'll focus on the Redis server and the Redis command line interface (a DOS-like client). Let's start the server. In Windows, double click `redis-server`. On *nix/MacOSX run `./redis-server`.
+Ako je sve prošlo u redu, Redis izvršni fajlovi će vam biti dostupni. Redis ima mnoštvo izvršnih fajlova. Fokusiraćemo se na Redis server i Redisov interfejs u komandnoj liniji (DOS-oliki klijent). Hajde da pokrenemo server. U Windowsu dvokliknite na `redis-server`. Na *nix/MacOSX pokrenite `./redis-server`.
 
-If you read the start up message you'll see a warning that the `redis.conf` file couldn't be found. Redis will instead use built-in defaults, which is fine for what we'll be doing.
+Ako obratite pažnju na poruku prilikom startovanja videćete upozorenje da nije pronađen `redis-conf` fajl. Umesto toga, Redis će korisiti ugrađene podrazumevane vrednosti, što je dovoljno za ono što ćemo mi raditi.
 
-Next start the Redis console by either double clicking `redis-cli` (Windows) or running `./redis-cli` (*nix/MacOSX). This will connect to the locally-running server on the default port (6379).
+Posle toga, pokrenite Redis konzolu bilo dvoklikom na `redis-cli` (Windows) ili pokretanjem `./redis-cli` (*nix/MacOSX). Ovo će nas povezati sa serverom koji se lokalno izvršava na podrazumevanom portu (6379).
 
-You can test that everything is working by entering `info` into the command line interface. You'll hopefully see a bunch of key-value pairs which provide a great deal of insight into the server's status.
+Možete proveriti da je sve u redu unoseći `info` u interfejs komandne linije. Trebalo bi da vidite gomilu parova ključ-vrednost koji pružaju značajan uvid u status servera.
 
-If you are having problems with the above setup I suggest you seek help in the [official Redis support group](https://groups.google.com/forum/#!forum/redis-db).
+Ako imate problema sa postavkama gore, savetujem vam da potražite pomoć u [zvaničnoj Redis grupi za podršku](https://groups.google.com/forum/#!forum/redis-db).
 
 ## Redis Drivers
 
