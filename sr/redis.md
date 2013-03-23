@@ -87,9 +87,9 @@ Možete proveriti da je sve u redu unoseći `info` u interfejs komandne linije. 
 
 Ako imate problema sa postavkama gore, savetujem vam da potražite pomoć u [zvaničnoj Redis grupi za podršku](https://groups.google.com/forum/#!forum/redis-db).
 
-## Redis Drivers
+## Drajveri za Redis
 
-As you'll soon learn, Redis' API is best described as an explicit set of functions. It has a very simple and procedural feel to it. This means that whether you are using the command line tool, or a driver for your favorite language, things are very similar. Therefore, you shouldn't have any problems following along if you prefer to work from a programming language. If you want, head over to the [client page](http://redis.io/clients) and download the appropriate driver.
+Kao što ćete uskoro naučiti, Redisov API je najbolje opisati kao eksplicitni set funkcija. Prati ga veoma jednostavan i proceduralan osećaj. Ovo znači da su stvari slične, bilo da koristite alat iz komandne linije ili drajver za vaš omiljeni programski jezik. Stoga, ne biste trebali da imate bilo kakvih problema ukoliko preferirate da radite iz programskog jezika. Ukoliko želite, posetite [klijent stranicu](http://redis.io/clients) i preuzmite odgovarajući drajver.
 
 \clearpage
 
